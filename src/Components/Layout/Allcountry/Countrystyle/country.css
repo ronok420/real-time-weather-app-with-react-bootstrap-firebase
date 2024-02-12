@@ -1,0 +1,72 @@
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+   
+}
+
+/* Responsive styles for screens smaller than 600px */
+@media (max-width: 600px) {
+    .country-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Styling for the individual country div */
+.Country {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for the individual country div */
+.Country:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.country-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+   
+}
+
+.Country {
+    background-color: transparent; /* Set the background to transparent */
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+.Country img{
+    width: 320px;
+    height: 160px;
+}
+
+/* Hover effect for the individual country div */
+.Country:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+    .country-container {
+        grid-template-columns: 1fr; /* Change to a single column for smaller screens */
+    }
+}
+
+
+
+
+
+
+
